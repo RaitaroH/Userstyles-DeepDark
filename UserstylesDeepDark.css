@@ -1,0 +1,415 @@
+@-moz-document url-prefix("https://userstyles.org/") {
+	
+/*THIS IS A BETA VERSION AND WILL REMAIN AS SUCH UNTIL userstyles.org WILL STOP USING FUCKING IFRAMES SO I COULD MAKE THE WEBSITE CONSISTENT LOOKING.*/
+
+/*1.0.0*/
+	
+  /*Main color variables*/
+	:root
+	{
+		/*User colors*/
+		--main-color: /*[[mainColor]]*/;
+		--main-background: /*[[mainBackground]]*/;
+		--second-background: /*[[secondBackground]]*/;
+		--hover-background: /*[[hoverBackground]]*/;
+		--main-text: /*[[mainText]]*/;
+		--dimer-text: /*[[dimerText]]*/;
+				
+		/*DeepDark colors*/
+		/*
+		--main-color: #00adee;
+		--main-background: #111111;
+		--second-background: #181818; 
+		--hover-background: #232323;
+		--main-text: #eff0f1;
+		--dimer-text: #CCCCCC;
+		*/
+		
+		/*KDE colors*/
+		/*
+		--main-color: #3DAEE9;
+		--main-background: #232629;
+		--second-background: #2a2e32;
+		--hover-background: #31363b;
+		--main-text: #eff0f1;
+		--dimer-text: #bdc3c7;
+		*/
+				
+		/*Vertex Dark colors*/
+		/*
+		--main-color: #4080fb;
+		--main-background: #2B2B2C;
+		--second-background: #353638;
+		--hover-background: #515254;
+		--main-text: #F3F3F5;
+		--dimer-text: #AEAFB0;
+		*/
+		
+		/*Arc Dark colors*/
+		/*
+		--main-color: #5294E2;
+		--main-background: #343944;
+		--second-background: #383C4A;
+		--hover-background: #414A59;
+		--main-text: #C1C8D1;
+		--dimer-text: #B3BAC5;
+		*/
+		
+		/*Firefox Dark colors*/
+		/*
+		--main-color: #5675B9;
+		--main-background: #272B35;
+		--second-background: #181D20;
+		--hover-background: #353A44;
+		--main-text: #E3EEF9;
+		--dimer-text: #606376;
+		*/
+		
+		/*Discord colors*/
+		/*
+		--main-color: #7289DA;
+		--main-background: #1E2124;
+		--second-background: #2F3136;
+		--hover-background: #484B51;
+		--main-text: #FFFFFF;
+		--dimer-text: #ADA8AA;
+		*/
+		
+		/*YouTube dark colors*/
+		/*
+		--main-color: #E52117;
+		--main-background: #111111;
+		--second-background: #232323;
+		--hover-background: #343434;
+		--main-text: #E1E1E1;
+		--dimer-text: #7F7F7F;
+		*/
+		
+		/*Mint-Y-Dark colors*/
+		/*
+		--main-color: #9AB87C;
+		--main-background: #2F2F2F;
+		--second-background: #383838;
+		--hover-background: #404040;
+		--main-text: #FFFFFF;
+		--dimer-text: #D5DADA;
+		*/
+	}
+	
+
+	/*Changed text highlight*/
+	::selection
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
+	}
+	::-moz-selection
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
+	}
+	
+	
+	/*Outline for links*/
+ 	a
+ 	{
+		outline-color: var(--main-color) !important;
+	}
+	
+	
+	/*Body*/
+	body
+	{
+		background-color: var(--second-background) !important;
+	}
+
+
+/*Header*/
+#header
+{
+	background-color: var(--hover-background) !important;
+}
+#search_input
+{
+	background-color: var(--main-background) !important;
+}
+#input_text_search
+{
+	color: var(--main-text) !important;
+}
+.Combined-Shape[src*="blue"]
+{
+	filter: brightness(50%);
+}
+.Combined-Shape[src*="blue"]
+{
+	filter: grayscale(100%) brightness(200%);
+}
+#create_new_style a
+{
+	color: var(--main-color) !important;
+}
+#create_new_style
+{
+	color: var(--main-color) !important;
+	border-color: var(--main-color) !important;
+	opacity: .9;
+}
+#create_new_style:hover
+{
+	opacity: 1;
+}
+.header_button a
+{
+	color: var(--main-text) !important;
+}
+.header_button a:hover
+{
+	color: var(--main-color) !important;
+}
+
+/*Sidebar*/
+#nav-view, #navigation
+{
+	background-color: var(--main-background) !important;
+}
+.linksBox .navigation_link:last-child, .navigation_link
+{
+    box-shadow: 0 1px 0 0 var(--hover-background), 0 0 0 0 var(--hover-background) !important;
+}
+.navigation_category
+{
+	color: var(--main-text) !important;
+}
+
+
+/*Tabs*/
+.navigation_link:hover
+{
+    background-color: var(--hover-background) !important;
+}
+.navigation_link_active
+{
+    border-color: var(--main-color) !important;
+}
+.navigation_title
+{
+	color: var(--main-text) !important;
+}
+.navigation_link:hover .navigation_title
+{
+	color: var(--main-color) !important;
+}
+.logo_navigation_link[src*="svg"]
+{
+	filter: invert(100%) grayscale(100%);
+}
+
+
+/*Slideshow*/
+#left-arrow-carousel, #right-arrow-carousel
+{
+	filter: invert(100%);
+}
+#overlay-info
+{
+	background-color: var(--second-background) !important;
+}
+#style-info-title-carousel
+{
+	color: var(--main-color) !important;
+	opacity: .9;
+}
+#style-info-author-carousel a
+{
+	color: var(--main-text) !important;
+}
+#style-info-author-carousel a:hover, #style-info-title-carousel:hover
+{
+	color: var(--main-color) !important;
+	opacity: 1;
+}
+.oval
+{
+	background-color: var(--dimer-text) !important;
+}
+.oval-active
+{
+	background-color: var(--main-color) !important;
+	box-shadow: none !important;
+}
+
+
+/*Categories*/
+.category_title
+{
+	color: var(--main-text) !important;
+}
+.see_more
+{
+	background-color: var(--main-color) !important;
+	color: var(--main-text) !important;
+}
+.see_more:hover
+{
+	background-color: var(--hover-background) !important;
+	color: var(--main-color) !important;
+}
+
+
+/*Cards*/
+.style_card
+{
+	background-color: var(--second-background) !important;
+}
+.screenshot_wrapper
+{
+	border-color: var(--hover-background) !important;
+}
+h4 a, .style_updated, .k, .style_card h4 a
+{
+	color: var(--main-text) !important;
+}
+h4 a:hover, .style_card:hover h4 a, .style_author, .style_author a
+{
+	color: var(--main-color) !important;
+}
+.downloads-icon
+{
+	filter: grayscale(100%) brightness(200%);
+}
+.tooltip_rating .tooltiptext_rating, .tooltip .tooltiptext
+{
+	background-color: var(--main-background) !important;
+	color: var(--main-text) !important;
+}	
+
+
+/*Footer*/
+#footer
+{
+	background-color: var(--hover-background) !important;
+}
+#copyrights
+{
+	color: var(--main-color) !important;
+}
+.footer_link a, #bottomLinks
+{
+	color: var(--main-text) !important;
+}
+.footer_link a:hover
+{
+	color: var(--main-color) !important;
+}
+
+
+/*Editor's choice*/
+h1
+{
+	color: var(--main-text) !important;
+}
+.view_mode_img[src="/ui/images/icons/squares-on.svg"], .view_mode_img[src="/ui/images/icons/rectangle-on.svg"]
+{
+	filter: grayscale(100%) brightness(200%);
+}
+.current, .div-arrow
+{
+	background-color: var(--main-color) !important;
+	color: var(--main-text) !important;
+	border: none !important;
+}
+.pageNumber
+{
+	color: var(--main-text) !important;
+}
+.current:hover, .div-arrow:hover, .pageNumber:hover
+{
+	background-color: var(--hover-background) !important;
+	color: var(--main-color) !important;
+}
+.arrow-icon[src="/ui/images/icons/right-arrow-icon.svg"]
+{
+	filter: grayscale(100%) brightness(200%);
+}
+.style_card_long, .line_seperator
+{
+	box-shadow: inset 0 -1px 0 0 var(--hover-background) !important;
+}
+#title_long a, .style_card_long #title_long a
+{
+	color: var(--main-text) !important;
+}
+#title_long a:hover, .style_card_long:hover #title_long a, .style_author_long, .style_author_long a
+{
+	color: var(--main-color) !important;
+}
+.style_description_long
+{
+	color: var(--dimer-text) !important;
+}
+.view_details
+{
+	background-color: var(--main-color) !important;
+	color: var(--main-text) !important;
+}
+.view_details:hover
+{
+	background-color: var(--hover-background) !important;
+	color: var(--main-color) !important;
+}
+
+
+/*Style*/
+.by-author, .author-name a, .text_style_page a, #as_userscript a, #notes_textarea a, #discussion_author a
+{
+	color: var(--main-color) !important;
+	opacity: .9;
+}
+.author-name a:hover, .text_style_page a:hover, #as_userscript a:hover, #as_userscript a:visited, #as_userscript a:visited:hover, #notes_textarea a:hover, #notes_textarea a:visited, #discussion_author a:visited, #discussion_author a:visited:hover, #discussion_author a:hover
+{
+	color: var(--main-color) !important;
+	opacity: 1;
+}
+#share_div, #headline, #infomation_value_left, #information_key, .title_setting
+{
+	color: var(--main-text) !important;
+}
+#information_key_left, .text_style_page, #discussion_date
+{
+	color: var(--dimer-text) !important;
+}
+#information_value, #applies_link
+{
+	color: var(--main-color) !important;
+}
+.white_button:hover, #update_style_button, #install_style_button, .css_button:hover, .advanced_button:hover, #archive_style_button, #send_feedback_button:hover, #style_installed_button
+{
+	background-color: var(--main-color) !important;
+	color: var(--main-text) !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.white_button, #update_style_button:hover, #install_style_button:hover, .css_button, .advanced_button, #archive_style_button:hover, #send_feedback_button, #style_installed_button:hover
+{
+	background-color: var(--hover-background) !important;
+	color: var(--main-color) !important;
+	border: none !important;
+}
+#notes_textarea, #stylish-code, .advancedsettings_shown
+{
+	background-color: var(--second-background) !important;
+	color: var(--main-text) !important;
+	border: 1px solid var(--hover-background) !important;
+}
+div.setting_div > div > div
+{
+	background-color: black !important;
+}
+#single_discussion
+{
+	box-shadow: 0 1px 0 0 var(--hover-background), 0 0 0 0 var(--hover-background) !important;
+}
+
+
+}
