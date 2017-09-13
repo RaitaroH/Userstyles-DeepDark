@@ -1,2 +1,2 @@
 # Userstyles-DeepDark
-**THIS IS A BETA VERSION AND WILL REMAIN AS SUCH UNTIL Firefox reaches 57 so Stylus can theme iframes**
+**THIS IS A BETA VERSION. Stylus doesn't work well with it. Waithing for F57. In the meantime, Stylish.**
