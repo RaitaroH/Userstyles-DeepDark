@@ -409,43 +409,43 @@
 	/*iframes*/
 	p, ul, i, body, .contact-bold-font
 	{
-		color: var(--dimer-text);
+		color: var(--dimer-text) !important;
 	}
 	a, a:visited, .sub-title
 	{
-		color: var(--main-color);
-		opacity: .9;
+		color: var(--main-color) !important;
+		opacity: .9 !important;
 	}
 	a:hover, a:visited:hover
 	{
-		color: var(--main-color);
-		opacity: 1;
+		color: var(--main-color) !important;
+		opacity: 1 !important;
 	}
 	.contact-font
 	{
-		color: var(--dimer-text);
+		color: var(--dimer-text) !important;
 	}
 	.contact-input
 	{
-		background-color: var(--main-background);
-		border-color: var(--hover-background);
+		background-color: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
 	}
 	:focus
 	{
-		outline-color: var(--main-color);
+		outline-color: var(--main-color) !important;
 	}
 	/*login*/
 	.btn-auth, input#login-existing, input#password-existing, input[type="submit"]
 	{
-		background-color: var(--main-background);
-		border-color: var(--hover-background);
-		color: var(--dimer-text);
+		background-color: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--dimer-text) !important;
 	}
 	.btn-auth:hover, input[type="submit"]:hover
 	{
-		background-color: var(--hover-background);
-		border-color: var(--hover-background);
-		color: var(--main-color);
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
 	}
 	input#remember-normal
 	{
@@ -453,25 +453,25 @@
 	}
 	a.btn-auth:visited
 	{
-		color: var(--dimer-text);
+		color: var(--dimer-text) !important;
 	}
 
 	/*User styles*/
 	.statistic table, th, td
 	{
-		border-color: var(--hover-background);
+		border-color: var(--hover-background) !important;
 	}
 
 	/*Edit style page*/
 	input, textarea
 	{
-		background-color: var(--main-background);
-		border-color: var(--hover-background);
-		color: var(--dimer-text);
+		background-color: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--dimer-text) !important;
 	}
 	.edit-setting
 	{
-		background-color: var(--hover-background);
+		background-color: var(--hover-background) !important;
 	}
 	input[type="radio" i], input#enable-source-editor-code
 	{
@@ -481,13 +481,13 @@
 	/*Edit css*/
 	.CodeMirror
 	{
-		background-color: var(--main-background);
-		border-color: var(--hover-background);
+		background-color: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
 	}
 	.CodeMirror-linenumber, .CodeMirror-gutters
 	{
-		background-color: var(--hover-background);
-		border-color: var(--hover-background);
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
 	}
 	
 	/*Code text*/
@@ -524,4 +524,273 @@
 
 	.cm-s-default .cm-builtin { color: var(--main-color); }
 	.cm-s-default .cm-meta { color: var(--dimer-text); }
+	
+	
+	/*Forum*/
+	#Head
+	{
+    	background: var(--hover-background) !important;
+    	color: var(--main-text) !important;
+	}
+	#Head a:hover
+	{
+		color: var(--main-color) !important;
+	}
+	
+	
+	/*Search*/
+	input.DateBox, input.InputBox, input.SmallInput, textarea
+	{
+		background: var(--main-background) !important;
+		color: var(--main-text) !important;
+	}
+	.ItemDiscussion .Meta, .DataList .Meta
+	{
+		color: var(--dimer-text) !important;
+	}
+	mark
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
+	}
+	
+	
+	/*Login*/
+	a.TextColor, a .TextColor
+	{
+		color: var(--main-text) !important;
+	}
+	a.TextColor:hover, a .TextColor:hover, a:hover .TextColor
+	{
+		color: var(--main-color) !important;
+	}
+	.Button
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--dimer-text) !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	.Button:hover
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	
+	
+	/*Menu*/
+	.Sprite16
+	{
+		filter: invert(100%);
+	}
+	
+    
+	/*Categories*/
+	.PanelCategories li:first-child, .PanelCategories li:nth-last-child(2)
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.Count
+	{
+		background: var(--main-background) !important;
+		color: var(--main-text) !important;
+	}
+	#Panel .FilterMenu li a, .PanelInfo li a
+	{
+		color: var(--main-text) !important;
+	}
+	#Panel .FilterMenu li a:hover, .PanelInfo li a:hover
+	{
+		color: var(--main-color) !important;
+	}
+	
+	
+	/*Discussions*/
+	.Tag
+	{
+		background: var(--main-background) !important;
+		color: var(--main-text) !important;
+	}
+	.HasNew
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
+	}
+	.MItem, span.ShowDiscussionAuthor, .Pager span
+	{
+		color: var(--dimer-text) !important;
+	}
+	.OptionsTitle, a.Bookmark, a.Bookmarked, a.Bookmarking
+	{
+		filter: invert(80%);
+	}
+	.OptionsTitle:hover, a.Bookmark:hover, a.Bookmarked:hover, a.Bookmarking:hover
+	{
+		filter: invert(100%);
+	}
+	.MenuItems
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		box-shadow: none !important;
+	}
+	.Flyout:before, .Flyout:after
+	{
+		border-bottom-color: var(--main-background) !important;
+	}
+	.MenuItems a, .MenuItems a:link, .MenuItems a:visited, .MenuItems a:active
+	{
+		color: var(--main-text) !important;
+	}
+	.MenuItems a:hover
+	{
+		background-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
+	}
+	.MenuItems hr
+	{
+		border-bottom-color: var(--hover-background) !important;
+	}
+	.Item.Read
+	{
+		background: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.Pager .Highlight, .Pager a:hover
+	{
+		color: var(--main-color) !important;
+	}
+	.Pager a
+	{
+		color: var(--main-text) !important;
+	}
+	.DataList .ItemDiscussion:hover
+	{
+		background-color: var(--hover-background);
+	}
+	.BoxButtons.BoxNewDiscussion a
+	{
+		color: var(--dimer-text) !important;
+	}
+	.BoxButtons.BoxNewDiscussion:hover a
+	{
+		color: var(--main-color) !important;
+	}
+	
+	/*Preferences*/
+	table.PreferenceGroup th, table.PreferenceGroup td, #Form_Invitation th, #Form_Invitation td
+	{
+		border-color: var(--hover-background) !important;
+	}
+	table.PreferenceGroup:hover th, table.PreferenceGroup:hover td, #Form_Invitation:hover th, #Form_Invitation:hover td
+	{
+		background-color: transparent !important;
+	}
+	.WarningMessage, .Info
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
+	}
+	select
+	{
+		background-color: var(--hover-background);
+		border-color: var(--hover-background);
+		color: var(--dimer-text);
+	}
+	
+	
+	/*Notifications*/
+	.Flyout:before, .Flyout:after
+	{
+		border-bottom-color: var(--hover-background) !important;
+	}
+	
+	/*Comments*/
+	.Attachment:hover .FileHover
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.ReactSprite
+	{
+		filter: invert(100%);
+	}
+	blockquote.Quote, blockQuote.UserQuote, code, pre
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	code, pre
+	{
+		color: var(--main-text) !important;
+	}
+	.EmoticonBox, .EmoticonContainer, .EmotifyDropdownActive
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		box-shadow: none !important;
+	}
+	.EmoticonBox:hover
+	{
+		box-shadow: 1px 1px 1px 1px var(--main-background) !important;
+	}
+	.FlyoutMenu
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--dimer-text) !important;
+	}
+	.InformMessages .InformMessage
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	.InformMessages .InformMessage a.Close
+	{
+		color: var(--main-text) !important;
+	}
+	.InformMessages .InformMessage a.Close:hover
+	{
+		color: var(--main-color) !important;
+	}
+
+	/*Profile*/
+	.NavButton
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--dimer-text) !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	.NavButton:hover
+	{
+		background: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
+		box-shadow: none !important;
+	}
+	.SpEditProfile
+	{
+		filter: invert(100%);
+	}
+	dl.About dt
+	{
+		color: var(--dimer-text) !important;
+	}
+	
+	
+	/*New Discussion*/
+	.DiscussionForm label
+	{
+		color: var(--dimer-text) !important;
+	}
 }
