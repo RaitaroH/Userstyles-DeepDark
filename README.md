@@ -1,6 +1,6 @@
 # Userstyles-DeepDark
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Userstyles%20-%20DeepDark.png)
-Host your code in the dark. (userstyles.org dark theme)
+Host your code in the dark. May the dark be kinder on thine eyes. (userstyles.org dark theme)
 
 This is a dark theme for userstyles.org inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search). 
 
