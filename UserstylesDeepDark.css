@@ -1,7 +1,7 @@
 @-moz-document domain("userstyles.org") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
 	
-/*1.0.0*/
+/*1.0.1*/
 	
 	/*Main color variables*/
 	:root
@@ -631,7 +631,7 @@
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
-	
+
 	
 	/*Menu*/
 	.Sprite16
@@ -814,7 +814,7 @@
 	}
 
 	/*Profile*/
-	.NavButton
+	.NavButton, a.NavButton.ProfileButtons.Button-EditProfile
 	{
 		background: var(--main-background) !important;
 		border-color: var(--hover-background) !important;
@@ -822,7 +822,7 @@
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
-	.NavButton:hover
+	.NavButton:hover, a.NavButton.ProfileButtons.Button-EditProfile:hover
 	{
 		background: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
@@ -845,4 +845,31 @@
 		color: var(--dimer-text) !important;
 	}
 	
+	
+	/*Messages*/
+	a.Button.NewConversation.Primary, #ConversationForm label
+	{
+		color: var(--dimer-text) !important;
+	}
+	a.Button.NewConversation.Primary:hover
+	{
+		color: var(--main-color) !important;
+	}
+	ul.token-input-list, div.token-input-dropdown, div.token-input-dropdown ul li, div.token-input-dropdown ul li.token-input-dropdown-item, div.token-input-dropdown ul li.token-input-dropdown-item2
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		box-shadow: none !important;
+	}
+	div.token-input-dropdown ul li:hover, div.token-input-dropdown ul li.token-input-dropdown-item:hover, div.token-input-dropdown ul li.token-input-dropdown-item2:hover
+	{
+		background: var(--hover-background) !important;
+		color: var(--main-color) !important;
+	}
+	li.token-input-token
+	{
+		border-color: var(--hover-background) !important;
+	}
+	
+
 }
