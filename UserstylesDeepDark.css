@@ -1,7 +1,7 @@
 @-moz-document domain("userstyles.org") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
 	
-/*1.0.1*/
+/*1.0.2*/
 	
 	/*Main color variables*/
 	:root
@@ -126,7 +126,7 @@
 	/*Body*/
 	body
 	{
-		background-color: var(--second-background) !important;
+		background-color: var(--main-background) !important;
 	}
 
 	/*Logo*/
@@ -142,7 +142,7 @@
 	}
 	#search_input
 	{
-		background-color: var(--main-background) !important;
+		background-color: var(--second-background) !important;
 	}
 	#input_text_search
 	{
@@ -297,7 +297,7 @@
 	}
 	.tooltip_rating .tooltiptext_rating, .tooltip .tooltiptext
 	{
-		background-color: var(--main-background) !important;
+		background-color: var(--second-background) !important;
 		color: var(--main-text) !important;
 	}	
 	
@@ -473,7 +473,7 @@
 	}
 	.contact-input
 	{
-		background-color: var(--main-background) !important;
+		background-color: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 	}
 	:focus
@@ -483,7 +483,7 @@
 	/*login*/
 	.btn-auth, input#login-existing, input#password-existing, input[type="submit"]
 	{
-		background-color: var(--main-background) !important;
+		background-color: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--dimer-text) !important;
 	}
@@ -511,23 +511,30 @@
 	/*Edit style page*/
 	input, textarea
 	{
-		background-color: var(--main-background) !important;
-		border-color: var(--hover-background) !important;
+		background-color: var(--second-background) !important;
+		border: 1px solid var(--hover-background) !important;
 		color: var(--dimer-text) !important;
+	}
+	input:active, textarea:active, input:focus, textarea:focus
+	{
+        border-color: var(--main-color) !important;
 	}
 	.edit-setting
 	{
 		background-color: var(--hover-background) !important;
 	}
+	/*If your browser shows buttons white because of a default white theme, uncomment this*/
+	/*
 	input[type="radio"], input#enable-source-editor-code
 	{
 		filter: invert(100%);
 	}
+	*/
 
 	/*Edit css*/
 	.CodeMirror
 	{
-		background-color: var(--main-background) !important;
+		background-color: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 	}
 	.CodeMirror-linenumber, .CodeMirror-gutters
@@ -592,7 +599,7 @@
 	/*Search*/
 	input.DateBox, input.InputBox, input.SmallInput, textarea
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		color: var(--main-text) !important;
 	}
 	.ItemDiscussion .Meta, .DataList .Meta
@@ -603,6 +610,10 @@
 	{
 		background: var(--main-color) !important;
 		color: var(--main-text) !important;
+	}
+	#search_input input
+	{
+		border: none !important;
 	}
 	
 	
@@ -617,7 +628,7 @@
 	}
 	.Button
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--dimer-text) !important;
 		box-shadow: none !important;
@@ -647,7 +658,7 @@
 	}
 	.Count
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		color: var(--main-text) !important;
 	}
 	#Panel .FilterMenu li a, .PanelInfo li a
@@ -685,13 +696,13 @@
 	}
 	.MenuItems
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		box-shadow: none !important;
 	}
 	.Flyout:before, .Flyout:after
 	{
-		border-bottom-color: var(--main-background) !important;
+		border-bottom-color: var(--second-background) !important;
 	}
 	.MenuItems a, .MenuItems a:link, .MenuItems a:visited, .MenuItems a:active
 	{
@@ -708,8 +719,12 @@
 	}
 	.Item.Read
 	{
-		background: var(--hover-background) !important;
+		background: var(--second-background) !important;
 		color: var(--main-text) !important;
+	}
+	.Item.Read:hover
+	{
+		background: var(--hover-background) !important;
 	}
 	.Pager .Highlight, .Pager a:hover
 	{
@@ -788,17 +803,17 @@
 	}
 	.EmoticonBox:hover
 	{
-		box-shadow: 1px 1px 1px 1px var(--main-background) !important;
+		box-shadow: 1px 1px 1px 1px var(--second-background) !important;
 	}
 	.FlyoutMenu
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--dimer-text) !important;
 	}
 	.InformMessages .InformMessage
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 		box-shadow: none !important;
@@ -816,7 +831,7 @@
 	/*Profile*/
 	.NavButton, a.NavButton.ProfileButtons.Button-EditProfile
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--dimer-text) !important;
 		box-shadow: none !important;
@@ -857,7 +872,7 @@
 	}
 	ul.token-input-list, div.token-input-dropdown, div.token-input-dropdown ul li, div.token-input-dropdown ul li.token-input-dropdown-item, div.token-input-dropdown ul li.token-input-dropdown-item2
 	{
-		background: var(--main-background) !important;
+		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		box-shadow: none !important;
 	}
@@ -870,6 +885,4 @@
 	{
 		border-color: var(--hover-background) !important;
 	}
-	
-
 }
