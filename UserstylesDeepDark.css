@@ -1,5 +1,3 @@
-@-moz-document domain("userstyles.org") {
-	
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
 	
 /*1.0.0*/
@@ -130,6 +128,12 @@
 		background-color: var(--second-background) !important;
 	}
 
+	/*Logo*/
+	.logo
+	{
+		filter: grayscale(100%) brightness(300%);
+	}
+
 	/*Header*/
 	#header
 	{
@@ -235,6 +239,10 @@
 		color: var(--main-color) !important;
 		opacity: 1;
 	}
+	#overlay-info
+	{
+		border-radius: 0 !important;
+	}
 	.oval
 	{
 		background-color: var(--dimer-text) !important;
@@ -255,11 +263,13 @@
 	{
 		background-color: var(--main-color) !important;
 		color: var(--main-text) !important;
+		opacity: .9;
 	}
 	.see_more:hover
 	{
-		background-color: var(--hover-background) !important;
-		color: var(--main-color) !important;
+		background-color: var(--main-color) !important;
+		color: var(--main-text) !important;
+		opacity: 1 !important;
 	}
 	
 	
@@ -300,7 +310,7 @@
 	{
 		color: var(--main-color) !important;
 	}
-	.footer_link a, #bottomLinks
+	.footer_link a, #bottomLinks, .footer_link a:visited
 	{
 		color: var(--main-text) !important;
 	}
@@ -324,17 +334,24 @@
 		background-color: var(--main-color) !important;
 		color: var(--main-text) !important;
 		border: none !important;
+		opacity: .9;
 	}
 	.pageNumber
 	{
 		color: var(--main-text) !important;
 	}
-	.current:hover, .div-arrow:hover, .pageNumber:hover
+	.pageNumber:hover
 	{
-		background-color: var(--hover-background) !important;
 		color: var(--main-color) !important;
 	}
-	.arrow-icon[src="/ui/images/icons/right-arrow-icon.svg"]
+	.div-arrow:hover, .current:hover
+	{
+		background-color: var(--main-color) !important;
+		color: var(--main-text) !important;
+		opacity: 1;
+	}
+
+	.arrow-icon[src="/ui/images/icons/right-arrow-icon.svg"], .arrow-icon[src="/ui/images/icons/left-arrow-icon.svg"]
 	{
 		filter: grayscale(100%) brightness(200%);
 	}
@@ -346,11 +363,11 @@
 	{
 		color: var(--main-text) !important;
 	}
-	#title_long a:hover, .style_card_long:hover #title_long a, .style_author_long, .style_author_long a
+	#title_long a:hover, .style_card_long:hover #title_long a, .style_author_long a
 	{
 		color: var(--main-color) !important;
 	}
-	.style_description_long
+	.style_description_long, .style_author_long
 	{
 		color: var(--dimer-text) !important;
 	}
@@ -358,16 +375,18 @@
 	{
 		background-color: var(--main-color) !important;
 		color: var(--main-text) !important;
+		opacity: .9;
 	}
 	.view_details:hover
 	{
-		background-color: var(--hover-background) !important;
-		color: var(--main-color) !important;
+		background-color: var(--main-color) !important;
+		color: var(--main-text) !important;
+		opacity: 1;
 	}
 	
 	
 	/*Style*/
-	.by-author, .author-name a, .text_style_page a, #as_userscript a, #notes_textarea a, #discussion_author a
+	.author-name a, .text_style_page a, #as_userscript a, #notes_textarea a, #discussion_author a
 	{
 		color: var(--main-color) !important;
 		opacity: .9;
@@ -381,7 +400,7 @@
 	{
 		color: var(--main-text) !important;
 	}
-	#information_key_left, .text_style_page, #discussion_date
+	#information_key_left, .text_style_page, #discussion_date, .by-author, .style_author.ellipsis
 	{
 		color: var(--dimer-text) !important;
 	}
@@ -389,19 +408,33 @@
 	{
 		color: var(--main-color) !important;
 	}
-	.white_button:hover, #update_style_button, #install_style_button, .css_button:hover, .advanced_button:hover, #archive_style_button, #send_feedback_button:hover, #style_installed_button
+	.white_button:hover, .css_button:hover, .advanced_button:hover, #archive_style_button:hover, #send_feedback_button:hover, #style_installed_button
+	{
+		background-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
+		border: none !important;
+		box-shadow: none !important;
+	}
+	.white_button, .css_button, .advanced_button, #archive_style_button, #send_feedback_button, #style_installed_button:hover
+	{
+		background-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+		border: none !important;
+		box-shadow: none !important;
+	}
+	#update_style_button, #install_style_button
 	{
 		background-color: var(--main-color) !important;
 		color: var(--main-text) !important;
 		border: none !important;
 		box-shadow: none !important;
+		opacity: .9;
 	}
-	.white_button, #update_style_button:hover, #install_style_button:hover, .css_button, .advanced_button, #archive_style_button:hover, #send_feedback_button, #style_installed_button:hover
+	#update_style_button:hover, #install_style_button:hover
 	{
-		background-color: var(--hover-background) !important;
-		color: var(--main-color) !important;
-		border: none !important;
+		opacity: 1;
 	}
+
 	#notes_textarea, #stylish-code, .advancedsettings_shown
 	{
 		background-color: var(--second-background) !important;
@@ -810,4 +843,3 @@
 	{
 		color: var(--dimer-text) !important;
 	}
-}
