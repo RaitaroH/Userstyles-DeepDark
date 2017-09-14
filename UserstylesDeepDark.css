@@ -485,7 +485,7 @@
 	{
 		background-color: var(--hover-background) !important;
 	}
-	input[type="radio" i], input#enable-source-editor-code
+	input[type="radio"], input#enable-source-editor-code
 	{
 		filter: invert(100%);
 	}
@@ -497,6 +497,11 @@
 		border-color: var(--hover-background) !important;
 	}
 	.CodeMirror-linenumber, .CodeMirror-gutters
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.errorExplanation
 	{
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
