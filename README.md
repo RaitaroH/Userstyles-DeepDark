@@ -37,6 +37,7 @@ The colors are available in the code; different colors can be used.
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/DeepDark_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Discord_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Firefox_Colors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Firefox57_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Mint-Y-Dark_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/VertexDark_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Youtube_Colors.png)
