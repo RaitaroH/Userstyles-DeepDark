@@ -2,7 +2,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
 	
-/*1.0.3*/
+/*1.0.4*/
 	
 	/*Main color variables*/
 	:root
@@ -895,5 +895,10 @@
 	li.token-input-token
 	{
 		border-color: var(--hover-background) !important;
+	}
+	
+	#token-input-Form_To
+	{
+		border: none !important;
 	}
 }
