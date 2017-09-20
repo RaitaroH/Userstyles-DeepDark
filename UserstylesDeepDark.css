@@ -2,7 +2,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
 	
-/*1.0.4*/
+/*1.0.5*/
 	
 	/*Main color variables*/
 	:root
@@ -625,6 +625,14 @@
 	#search_input input
 	{
 		border: none !important;
+	}
+	.SiteSearch .Button
+	{
+		background: url('https://forum.userstyles.org/applications/dashboard/design/images/sprites.png') 0 -324px no-repeat transparent !important;
+	}
+	.SiteSearch .Button:hover
+	{
+		background: url('https://forum.userstyles.org/applications/dashboard/design/images/sprites.png') 0 -260px no-repeat transparent !important;
 	}
 	
 	
