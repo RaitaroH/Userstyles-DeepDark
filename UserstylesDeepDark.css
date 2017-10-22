@@ -4,7 +4,7 @@
 	
 /*GNU General Public License v3.0*/
 	
-/*1.0.7*/
+/*1.0.8*/
 	
 	/*Main color variables*/
 	:root
@@ -980,5 +980,12 @@
 	#token-input-Form_To
 	{
 		border: none !important;
+	}
+	
+	/*Comment preview*/
+	.Preview
+	{
+		background: var(--hover-background) !important;
+		color: var(--main-text) !important;
 	}
 }
