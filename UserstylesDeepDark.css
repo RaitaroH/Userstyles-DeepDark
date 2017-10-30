@@ -1,11 +1,11 @@
 @-moz-document domain("userstyles.org") {
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
-	
+
 /*GNU General Public License v3.0*/
-	
+
 /*1.0.8*/
-	
+
 	/*Main color variables*/
 	:root
 	{
@@ -16,17 +16,17 @@
 		--hover-background: /*[[hoverBackground]]*/;
 		--main-text: /*[[mainText]]*/;
 		--dimer-text: /*[[dimerText]]*/;
-				
+
 		/*DeepDark colors*/
 		/*
 		--main-color: #00adee;
 		--main-background: #111111;
-		--second-background: #181818; 
+		--second-background: #181818;
 		--hover-background: #232323;
 		--main-text: #eff0f1;
 		--dimer-text: #CCCCCC;
 		*/
-		
+
 		/*KDE colors*/
 		/*
 		--main-color: #3DAEE9;
@@ -36,7 +36,7 @@
 		--main-text: #eff0f1;
 		--dimer-text: #bdc3c7;
 		*/
-				
+
 		/*Vertex Dark colors*/
 		/*
 		--main-color: #4080fb;
@@ -46,7 +46,7 @@
 		--main-text: #F3F3F5;
 		--dimer-text: #AEAFB0;
 		*/
-		
+
 		/*Arc Dark colors*/
 		/*
 		--main-color: #5294E2;
@@ -56,7 +56,7 @@
 		--main-text: #C1C8D1;
 		--dimer-text: #B3BAC5;
 		*/
-		
+
 		/*Firefox Dark colors*/
 		/*
 		--main-color: #5675B9;
@@ -66,7 +66,7 @@
 		--main-text: #E3EEF9;
 		--dimer-text: #606376;
 		*/
-		
+
 		/*Firefox57 Dark colors*/
 		/*
 		--main-color: #4080FB;
@@ -76,7 +76,7 @@
 		--main-text: #F9F9FA;
 		--dimer-text: #D0D0D0;
 		*/
-		
+
 		/*Discord colors*/
 		/*
 		--main-color: #7289DA;
@@ -86,7 +86,7 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #ADA8AA;
 		*/
-		
+
 		/*YouTube dark colors*/
 		/*
 		--main-color: #E52117;
@@ -96,7 +96,7 @@
 		--main-text: #E1E1E1;
 		--dimer-text: #7F7F7F;
 		*/
-		
+
 		/*Mint-Y-Dark colors*/
 		/*
 		--main-color: #9AB87C;
@@ -106,7 +106,7 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #D5DADA;
 		*/
-		
+
 		/*9anime colors*/
 		/*
 		--main-color: #723f8c;
@@ -116,7 +116,7 @@
 		--main-text: #B4B4B4;
 		--dimer-text: #747474;
 		*/
-		
+
 		/*Black and white*/
 		/*
 		--main-color: #ffffff;
@@ -126,7 +126,7 @@
 		--main-text: #b4b4b4;
 		--dimer-text: #828282;
 		*/
-		
+
 		/*Yellow (colors from petrocompletions)*/
 		/*
 		--main-color: #FFC700;
@@ -136,7 +136,7 @@
 		--main-text: #EFF0F1;
 		--dimer-text: #9F9999;
 		*/
-		
+
 		/*Yellow 2*/
 		/*
 		--main-color: #ffc700;
@@ -146,27 +146,27 @@
 		--main-text: #fffdf5;
 		--dimer-text: #fff8e1;
 		*/
-		
+
 		/*Ubuntu grey colors*/
 		/*
 		--main-color: #EF7847;
 		--main-background: #312D2A;
-		--second-background: #3D3C38; 
+		--second-background: #3D3C38;
 		--hover-background: #59564D;
 		--main-text: #F2F1EF;
 		--dimer-text: #E6E5E3;
 		*/
-		
+
 		/*Ubuntu purple colors*/
 		/*
 		--main-color: #EF7847;
 		--main-background: #2C071A;
-		--second-background: #430B28; 
+		--second-background: #430B28;
 		--hover-background: #520D30;
 		--main-text: #F2F1EF;
 		--dimer-text: #E6E5E3;
 		*/
-		
+
 		/*Orange*/
 		/*
 		--main-color: #ff6905;
@@ -176,7 +176,7 @@
 		--main-text: #fff9f5;
 		--dimer-text: #ffede1;
 		*/
-		
+
 		/*Jisho 夜明け colors https://userstyles.org/styles/115621/jisho*/
 		/*
 		--main-color: #EF7D6C;
@@ -187,7 +187,7 @@
 		--dimer-text: #986E3F;
 		*/
 	}
-	
+
 	/*Changed text highlight*/
 	::selection
 	{
@@ -199,13 +199,13 @@
 		background: var(--main-color) !important;
 		color: var(--main-text) !important;
 	}
-	
+
 	/*Outline for links*/
  	a
  	{
 		outline-color: var(--main-color) !important;
 	}
-	
+
 	/*Body*/
 	body
 	{
@@ -261,7 +261,7 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
+
 	/*Sidebar*/
 	#nav-view, #navigation
 	{
@@ -275,8 +275,8 @@
 	{
 		color: var(--main-text) !important;
 	}
-	
-	
+
+
 	/*Tabs*/
 	.navigation_link:hover
 	{
@@ -298,8 +298,8 @@
 	{
 		filter: invert(100%) grayscale(100%);
 	}
-	
-	
+
+
 	/*Slideshow*/
 	#left-arrow-carousel, #right-arrow-carousel
 	{
@@ -336,8 +336,8 @@
 		background-color: var(--main-color) !important;
 		box-shadow: none !important;
 	}
-	
-	
+
+
 	/*Categories*/
 	.category_title
 	{
@@ -355,8 +355,8 @@
 		color: var(--main-text) !important;
 		opacity: 1 !important;
 	}
-	
-	
+
+
 	/*Cards*/
 	.style_card
 	{
@@ -382,9 +382,9 @@
 	{
 		background-color: var(--second-background) !important;
 		color: var(--main-text) !important;
-	}	
-	
-	
+	}
+
+
 	/*Footer*/
 	#footer
 	{
@@ -402,8 +402,8 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Editor's choice*/
 	h1
 	{
@@ -467,8 +467,8 @@
 		color: var(--main-text) !important;
 		opacity: 1;
 	}
-	
-	
+
+
 	/*Style*/
 	.author-name a, .text_style_page a, #as_userscript a, #notes_textarea a, #discussion_author a
 	{
@@ -534,7 +534,7 @@
 		box-shadow: 0 1px 0 0 var(--hover-background), 0 0 0 0 var(--hover-background) !important;
 	}
 
-	
+
 	/*iframes*/
 	p, ul, i, body, .contact-bold-font
 	{
@@ -630,7 +630,7 @@
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
 	}
-	
+
 	/*Code text*/
 	.CodeMirror div.CodeMirror-cursor { border-color: var(--main-color); }
 	.cm-s-default.CodeMirror { background: var(--second-background); color: var(--main-text); }
@@ -665,8 +665,8 @@
 
 	.cm-s-default .cm-builtin { color: var(--main-color); }
 	.cm-s-default .cm-meta { color: var(--dimer-text); }
-	
-	
+
+
 	/*Forum*/
 	#Head
 	{
@@ -677,8 +677,8 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Search*/
 	input.DateBox, input.InputBox, input.SmallInput, textarea
 	{
@@ -706,8 +706,8 @@
 	{
 		background: url('https://forum.userstyles.org/applications/dashboard/design/images/sprites.png') 0 -260px no-repeat transparent !important;
 	}
-	
-	
+
+
 	/*Login*/
 	a.TextColor, a .TextColor
 	{
@@ -734,14 +734,14 @@
 		text-shadow: none !important;
 	}
 
-	
+
 	/*Menu*/
 	.Sprite16
 	{
 		filter: invert(100%);
 	}
-	
-    
+
+
 	/*Categories*/
 	.PanelCategories li:first-child, .PanelCategories li:nth-last-child(2)
 	{
@@ -760,8 +760,8 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Discussions*/
 	.Tag
 	{
@@ -837,7 +837,7 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
+
 	/*Preferences*/
 	table.PreferenceGroup th, table.PreferenceGroup td, #Form_Invitation th, #Form_Invitation td
 	{
@@ -859,14 +859,14 @@
 		border-color: var(--hover-background);
 		color: var(--dimer-text);
 	}
-	
-	
+
+
 	/*Notifications*/
 	.Flyout:before, .Flyout:after
 	{
 		border-bottom-color: var(--hover-background) !important;
 	}
-	
+
 	/*Comments*/
 	.Attachment:hover .FileHover
 	{
@@ -943,15 +943,15 @@
 	{
 		color: var(--dimer-text) !important;
 	}
-	
-	
+
+
 	/*New Discussion*/
 	.DiscussionForm label
 	{
 		color: var(--dimer-text) !important;
 	}
-	
-	
+
+
 	/*Messages*/
 	a.Button.NewConversation.Primary, #ConversationForm label
 	{
@@ -976,12 +976,12 @@
 	{
 		border-color: var(--hover-background) !important;
 	}
-	
+
 	#token-input-Form_To
 	{
 		border: none !important;
 	}
-	
+
 	/*Comment preview*/
 	.Preview
 	{
