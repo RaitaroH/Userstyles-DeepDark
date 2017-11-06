@@ -4,7 +4,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.0.8*/
+/*1.0.9*/
 
 	/*Main color variables*/
 	:root
@@ -739,6 +739,11 @@
 	.Sprite16
 	{
 		filter: invert(100%);
+	}
+	.Alert
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
 	}
 
 
