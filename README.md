@@ -15,7 +15,7 @@ Theme as a userstyle [here](https://userstyles.org/styles/148112/userstyles-deep
 ### **You can also install all my themes at once from [here](https://github.com/RaitaroH/Import-All-Deepdark).**
 
 
-# Screemshots
+# Screenshots
 Main page
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/Main_Page.png)
 Most popular
