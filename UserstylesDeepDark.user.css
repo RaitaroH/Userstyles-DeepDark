@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.0
+@version 1.1.1
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.0*/
+/*1.1.1*/
 
 	/*Main color variables*/
 	:root
@@ -955,6 +955,37 @@
 	{
 		background: var(--hover-background) !important;
 	}
+	.DataList .ItemDiscussion
+	{
+		margin-bottom: 10px !important;
+		box-shadow: 0 1px 0.5px rgba(0,0,0,0.13) !important;
+	}
+	.ItemContent.Discussion
+	{
+		margin-left: 10px !important;
+	}
+	.DataList .rating-image
+	{
+		left: 12px;
+		top: 12px;
+		padding-left: 10px;
+		display: block !important;
+		-moz-box-sizing: border-box !important;
+		box-sizing: border-box !important;
+		width: 12px !important;
+		height: 12px !important;
+		padding-left: 12px !important;
+		right: -175px !important;
+	}
+	.rating-image.bad-rating
+	{
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/bad.png");
+	}
+	.rating-image.good-rating
+	{
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/good.png");
+	}
+	
 	.Pager .Highlight, .Pager a:hover
 	{
 		color: var(--main-color) !important;
