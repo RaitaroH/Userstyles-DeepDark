@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.4
+@version 1.1.5
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.4*/
+/*1.1.5*/
 
 	/*Main color variables*/
 	:root
@@ -604,6 +604,10 @@
 
 
 	/*Style*/
+	#preview_image_div
+	{
+		background-position: center center !important;
+	}
 	.author-name a, .text_style_page a, #as_userscript a, #notes_textarea a, #discussion_author a
 	{
 		color: var(--main-color) !important;
