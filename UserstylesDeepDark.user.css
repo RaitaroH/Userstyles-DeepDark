@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.3
+@version 1.1.4
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.3*/
+/*1.1.4*/
 
 	/*Main color variables*/
 	:root
@@ -720,7 +720,7 @@
 	}
 
 	/*Edit style page*/
-	input, textarea
+	input:not([class*="color"]), textarea
 	{
 		background-color: var(--second-background) !important;
 		border: 1px solid var(--hover-background) !important;
@@ -1076,7 +1076,10 @@
 	{
 		background-color: var(--hover-background) !important;
 	}
-	
+	td[class="obsolete"] a
+	{
+		text-decoration: line-through !important;
+	}
 
 	.Pager .Highlight, .Pager a:hover
 	{
