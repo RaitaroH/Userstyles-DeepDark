@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.1
+@version 1.1.2
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.1*/
+/*1.1.2*/
 
 	/*Main color variables*/
 	:root
@@ -337,6 +337,7 @@
  	a
  	{
 		outline-color: var(--main-color) !important;
+		text-decoration: none !important;
 	}
 
 	/*Body*/
@@ -718,12 +719,6 @@
 		color: var(--dimer-text) !important;
 	}
 
-	/*User styles*/
-	.statistic table, th, td
-	{
-		border-color: var(--hover-background) !important;
-	}
-
 	/*Edit style page*/
 	input, textarea
 	{
@@ -964,11 +959,10 @@
 	{
 		margin-left: 10px !important;
 	}
-	.DataList .rating-image
+	
+	/*Replacing images*/
+	.DataList .rating-image, .good-average-rating, .ok-average-rating, .bad-average-rating
 	{
-		left: 5px;
-		top: 6px;
-		padding-left: 10px;
 		display: block !important;
 		-moz-box-sizing: border-box !important;
 		box-sizing: border-box !important;
@@ -977,19 +971,80 @@
 		padding-left: 24px !important;
 		right: -175px !important;
 	}
-	.rating-image.bad-rating
+	.style-warning-icon
+	{
+		display: block !important;
+		-moz-box-sizing: border-box !important;
+		box-sizing: border-box !important;
+		width: 12px !important;
+		height: 12px !important;
+		padding-left: 12px !important;
+		right: -175px !important;
+		margin: 5px auto 5px 5px;
+	}
+	.DataList .rating-image
+	{
+		left: 5px;
+		top: 6px;
+	}
+	.good-average-rating, .ok-average-rating, .bad-average-rating
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.rating-image.bad-rating, .bad-average-rating
 	{
 		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/bad.png");
 	}
-	.rating-image.good-rating
+	.rating-image.good-rating, .good-average-rating
 	{
 		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/good.png");
 	}
-	.rating-image.ok-rating
+	.rating-image.ok-rating, .ok-average-rating
 	{
 		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/ok.png");
 	}
-	
+	.style-warning-icon
+	{
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/warning.png");
+	}
+
+
+	/*User styles*/
+	.statistic table, th, td
+	{
+		border: none !important;
+		background-color: var(--second-background) !important;
+	}
+	.numeric-value
+	{
+		text-align: center;
+	}
+	td[valign="top"]
+	{
+		vertical-align: middle;
+		padding-left: 10px;
+	}
+	/*Removed the empty space*/
+	.author-styles > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(1)
+	{
+		opacity: 0;
+		border: none !important;
+	}
+	.author-styles tbody tr, .author-styles tbody tr td
+	{
+		border-bottom: 10px solid var(--main-background) !important;
+		box-shadow: 0 1px 0.5px rgba(0,0,0,0.13) !important;
+	}
+	.author-styles tbody tr:hover td
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.author-styles > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(7)
+	{
+		width: 10px;
+	}
+
 	.Pager .Highlight, .Pager a:hover
 	{
 		color: var(--main-color) !important;
