@@ -966,15 +966,15 @@
 	}
 	.DataList .rating-image
 	{
-		left: 12px;
-		top: 12px;
+		left: 5px;
+		top: 6px;
 		padding-left: 10px;
 		display: block !important;
 		-moz-box-sizing: border-box !important;
 		box-sizing: border-box !important;
-		width: 12px !important;
-		height: 12px !important;
-		padding-left: 12px !important;
+		width: 24px !important;
+		height: 24px !important;
+		padding-left: 24px !important;
 		right: -175px !important;
 	}
 	.rating-image.bad-rating
@@ -984,6 +984,10 @@
 	.rating-image.good-rating
 	{
 		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/good.png");
+	}
+	.rating-image.ok-rating
+	{
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/ok.png");
 	}
 	
 	.Pager .Highlight, .Pager a:hover
