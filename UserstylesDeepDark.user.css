@@ -149,6 +149,8 @@
 		--hover-background: /*[[hoverBackground]]*/;
 		--main-text: /*[[mainText]]*/;
 		--dimer-text: /*[[dimerText]]*/;
+		
+		--shadow: 0 1px 0.5px rgba(0,0,0,0.13);
 
 		/*DeepDark colors*/
 		/*
@@ -957,7 +959,7 @@
 	.DataList .ItemDiscussion
 	{
 		margin-bottom: 10px !important;
-		box-shadow: 0 1px 0.5px rgba(0,0,0,0.13) !important;
+		box-shadow: var(--shadow) !important;
 	}
 	.ItemContent.Discussion
 	{
@@ -1066,7 +1068,7 @@
 	.author-styles tbody tr, .author-styles tbody tr td
 	{
 		border-bottom: 10px solid var(--main-background) !important;
-		box-shadow: 0 1px 0.5px rgba(0,0,0,0.13) !important;
+		box-shadow: var(--shadow) !important;
 	}
 	.author-styles tbody tr:hover td
 	{
