@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.6
+@version 1.1.7
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.6*/
+/*1.1.7*/
 
 	/*Main color variables*/
 	:root
@@ -470,7 +470,7 @@
 	.oval-active
 	{
 		background-color: var(--main-color) !important;
-		box-shadow: none !important;
+		box-shadow: var(--shadow) !important;
 	}
 
 
@@ -481,15 +481,13 @@
 	}
 	.see_more
 	{
-		background-color: var(--main-color) !important;
+		background-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
-		opacity: .9;
+		box-shadow: var(--shadow) !important;
 	}
 	.see_more:hover
 	{
-		background-color: var(--main-color) !important;
-		color: var(--main-text) !important;
-		opacity: 1 !important;
+		color: var(--main-color) !important;
 	}
 
 
@@ -637,26 +635,25 @@
 		background-color: var(--hover-background) !important;
 		color: var(--main-color) !important;
 		border: none !important;
-		box-shadow: none !important;
+		box-shadow: var(--shadow) !important;
 	}
 	.white_button, .css_button, .advanced_button, #archive_style_button, #send_feedback_button, #style_installed_button:hover
 	{
 		background-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 		border: none !important;
-		box-shadow: none !important;
+		box-shadow: var(--shadow) !important;
 	}
 	#update_style_button, #install_style_button
 	{
-		background-color: var(--main-color) !important;
+		background-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 		border: none !important;
-		box-shadow: none !important;
-		opacity: .9;
+		box-shadow: var(--shadow) !important;
 	}
 	#update_style_button:hover, #install_style_button:hover
 	{
-		opacity: 1;
+		color: var(--main-color) !important;
 	}
 
 	#notes_textarea, #stylish-code, .advancedsettings_shown
