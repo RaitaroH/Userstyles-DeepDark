@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.7
+@version 1.1.8
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.7*/
+/*1.1.8*/
 
 	/*Main color variables*/
 	:root
@@ -949,24 +949,35 @@
 	{
 		border-bottom-color: var(--hover-background) !important;
 	}
-	.Item.Read
-	{
-		background: var(--second-background) !important;
-		color: var(--main-text) !important;
-	}
-	.Item.Read:hover
-	{
-		background: var(--hover-background) !important;
-	}
 	.DataList .ItemDiscussion
 	{
 		margin-bottom: 10px !important;
 		box-shadow: var(--shadow) !important;
+		background: var(--second-background) !important;
+	}
+	.Item.Read
+	{
+		background: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.Item.Read:hover, .DataList .ItemDiscussion:hover
+	{
+		background: var(--hover-background) !important;
 	}
 	.ItemContent.Discussion
 	{
 		margin-left: 10px !important;
 	}
+	.Item.Read .Title a, .Item.Read .BlockTitle a
+	{
+		color: var(--main-text) !important;
+		font-weight: bold;
+	}
+	.Item.Read .Title a:hover, .Item.Read .BlockTitle a:hover
+	{
+		color: var(--main-color) !important;
+	}
+
 	
 	/*Replacing images in the forum and users' style page*/
 	.DataList .rating-image, .good-average-rating, .ok-average-rating, .bad-average-rating
