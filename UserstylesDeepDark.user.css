@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.8
+@version 1.1.9
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.8*/
+/*1.1.9*/
 
 	/*Main color variables*/
 	:root
@@ -853,7 +853,7 @@
 	{
 		color: var(--main-color) !important;
 	}
-	.Button
+	.Button, .customize_button
 	{
 		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
@@ -861,7 +861,7 @@
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
-	.Button:hover
+	.Button:hover, .customize_button:hover
 	{
 		background: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
