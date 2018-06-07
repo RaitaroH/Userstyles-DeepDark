@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.1.9
+@version 1.2.0
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.1.9*/
+/*1.2.0*/
 
 	/*Main color variables*/
 	:root
@@ -377,17 +377,17 @@
 	}
 	#create_new_style a
 	{
-		color: var(--main-color) !important;
+		color: var(--main-text) !important;
 	}
 	#create_new_style
 	{
-		color: var(--main-color) !important;
-		border-color: var(--main-color) !important;
-		opacity: .9;
+		color: var(--main-text) !important;
+		border-color: var(--hover-background) !important;
+		background-color: var(--main-background) !important;
 	}
-	#create_new_style:hover
+	#create_new_style:hover a
 	{
-		opacity: 1;
+		color: var(--main-color) !important;
 	}
 	.header_button a
 	{
@@ -655,7 +655,6 @@
 	{
 		color: var(--main-color) !important;
 	}
-
 	#notes_textarea, #stylish-code, .advancedsettings_shown
 	{
 		background-color: var(--second-background) !important;
@@ -1270,5 +1269,47 @@
 	{
 		background: var(--hover-background) !important;
 		color: var(--main-text) !important;
+	}
+	
+	/*Android page*/
+	#top_android_button
+	{
+		background-color: var(--main-background) !important;
+		border: none !important;
+		box-shadow: var(--shadow) !important;
+	}
+	#top_android_button .android_button_text
+	{
+		color: var(--main-text) !important;
+	}
+	#top_android_button:hover .android_button_text
+	{
+		color: var(--main-color) !important;
+	}
+	#landing_page_div .top_landing_page_div, #nav-view-responsive
+	{
+		background: var(--main-background) !important;
+	}
+	#landing_page_div .bottom_landing_page_div
+	{
+		background: var(--second-background) !important;
+	}
+	#landing_page_div .top_landing_page_div .coming_soon_div .coming_soon_subtitle
+	{
+		color: var(--main-color) !important;
+	}
+	#landing_page_div .top_landing_page_div .coming_soon_div .coming_soon_text, #landing_page_div .bottom_landing_page_div .android_feature_div .android_feature_text div
+	{
+		color: var(--main-text) !important;
+	}
+	#landing_page_div .top_landing_page_div .coming_soon_div .coming_soon_helpus
+	{
+		color: var(--dimer-text) !important;		
+	}
+	#landing_page_div .top_landing_page_div .coming_soon_div .get_it_now
+	{
+		background: var(--main-color) !important;
+		border-color: var(--main-color) !important;
+		box-shadow: none !important;
 	}
 }
