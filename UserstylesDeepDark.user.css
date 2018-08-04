@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.2.0
+@version 1.2.1
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.2.0*/
+/*1.2.1*/
 
 	/*Main color variables*/
 	:root
@@ -613,7 +613,10 @@
 		color: var(--main-color) !important;
 		opacity: .9;
 	}
-	.author-name a:hover, .text_style_page a:hover, #as_userscript a:hover, #as_userscript a:visited, #as_userscript a:visited:hover, #notes_textarea a:hover, #notes_textarea a:visited, #discussion_author a:visited, #discussion_author a:visited:hover, #discussion_author a:hover
+	.author-name a:hover, .text_style_page a:hover, #as_userscript a:hover, 
+	#as_userscript a:visited, #as_userscript a:visited:hover, #notes_textarea a:hover, 
+	#notes_textarea a:visited, #discussion_author a:visited, #discussion_author a:visited:hover, 
+	#discussion_author a:hover
 	{
 		color: var(--main-color) !important;
 		opacity: 1;
@@ -630,14 +633,16 @@
 	{
 		color: var(--main-color) !important;
 	}
-	.white_button:hover, .css_button:hover, .advanced_button:hover, #archive_style_button:hover, #send_feedback_button:hover, #style_installed_button
+	.white_button:hover, .css_button:hover, .advanced_button:hover, #archive_style_button:hover, 
+	#send_feedback_button:hover, #style_installed_button
 	{
 		background-color: var(--hover-background) !important;
 		color: var(--main-color) !important;
 		border: none !important;
 		box-shadow: var(--shadow) !important;
 	}
-	.white_button, .css_button, .advanced_button, #archive_style_button, #send_feedback_button, #style_installed_button:hover
+	.white_button, .css_button, .advanced_button, #archive_style_button, #send_feedback_button, 
+	#style_installed_button:hover
 	{
 		background-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
@@ -1125,7 +1130,8 @@
 	{
 		border-color: var(--hover-background) !important;
 	}
-	table.PreferenceGroup:hover th, table.PreferenceGroup:hover td, #Form_Invitation:hover th, #Form_Invitation:hover td
+	table.PreferenceGroup:hover th, table.PreferenceGroup:hover td, #Form_Invitation:hover th, 
+	#Form_Invitation:hover td
 	{
 		background-color: transparent !important;
 	}
@@ -1243,13 +1249,15 @@
 	{
 		color: var(--main-color) !important;
 	}
-	ul.token-input-list, div.token-input-dropdown, div.token-input-dropdown ul li, div.token-input-dropdown ul li.token-input-dropdown-item, div.token-input-dropdown ul li.token-input-dropdown-item2
+	ul.token-input-list, div.token-input-dropdown, div.token-input-dropdown ul li, 
+	div.token-input-dropdown ul li.token-input-dropdown-item, div.token-input-dropdown ul li.token-input-dropdown-item2
 	{
 		background: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
 		box-shadow: none !important;
 	}
-	div.token-input-dropdown ul li:hover, div.token-input-dropdown ul li.token-input-dropdown-item:hover, div.token-input-dropdown ul li.token-input-dropdown-item2:hover
+	div.token-input-dropdown ul li:hover, div.token-input-dropdown ul li.token-input-dropdown-item:hover, 
+	div.token-input-dropdown ul li.token-input-dropdown-item2:hover
 	{
 		background: var(--hover-background) !important;
 		color: var(--main-color) !important;
@@ -1298,7 +1306,8 @@
 	{
 		color: var(--main-color) !important;
 	}
-	#landing_page_div .top_landing_page_div .coming_soon_div .coming_soon_text, #landing_page_div .bottom_landing_page_div .android_feature_div .android_feature_text div
+	#landing_page_div .top_landing_page_div .coming_soon_div .coming_soon_text, 
+	#landing_page_div .bottom_landing_page_div .android_feature_div .android_feature_text div
 	{
 		color: var(--main-text) !important;
 	}
@@ -1311,5 +1320,19 @@
 		background: var(--main-color) !important;
 		border-color: var(--main-color) !important;
 		box-shadow: none !important;
+	}
+
+	/*FAQ page*/
+	.faq-page-title
+	{
+		color: var(--main-color) !important;
+	}
+	.faq-page-flex-subtitle, .faq-page-subtitle
+	{
+		color: var(--main-text) !important;
+	}
+	.faq-page-flex-text, .faq-page-text
+	{
+		color: var(--dimer-text) !important;
 	}
 }
