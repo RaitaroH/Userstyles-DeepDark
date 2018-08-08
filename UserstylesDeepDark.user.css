@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace github.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
-@version 1.2.1
+@version 1.2.2
 @updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.2.1*/
+/*1.2.2*/
 
 	/*Main color variables*/
 	:root
@@ -847,6 +847,10 @@
 		background: url('https://forum.userstyles.org/applications/dashboard/design/images/sprites.png') 0 -260px no-repeat transparent !important;
 	}
 
+	#title_div
+	{
+		border-color: var(--hover-background) !important;
+	}
 
 	/*Login*/
 	a.TextColor, a .TextColor
