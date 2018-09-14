@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name Userstyles DeepDark
-@namespace github.com/RaitaroH/Userstyles-DeepDark
-@homepageURL https://github.com/RaitaroH/Userstyles-DeepDark
+@namespace gitlab.com/RaitaroH/Userstyles-DeepDark
+@homepageURL https://gitlab.com/RaitaroH/Userstyles-DeepDark
 @version 1.2.4
-@updateURL https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css
+@updateURL https://gitlab.com/RaitaroH/Userstyles-DeepDark/raw/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
 @license GNU-V3.0
@@ -145,7 +145,7 @@
 
 @-moz-document domain("userstyles.org") {
 
-/*Theme made by RaitaroH @https://github.com/RaitaroH/Userstyles-DeepDark*/
+/*Theme made by RaitaroH @https://gitlab.com/RaitaroH/Userstyles-DeepDark*/
 
 /*GNU General Public License v3.0*/
 
@@ -1034,19 +1034,19 @@
 	}
 	.rating-image.bad-rating, .bad-average-rating
 	{
-		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/bad.png");
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/bad.png");
 	}
 	.rating-image.good-rating, .good-average-rating
 	{
-		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/good.png");
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/good.png");
 	}
 	.rating-image.ok-rating, .ok-average-rating
 	{
-		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/ok.png");
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/ok.png");
 	}
 	.style-warning-icon
 	{
-		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/warning.png");
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/warning.png");
 	}
 	.author-styles a[href*="edit"], .author-styles a[href*="delete"], .author-styles a[href*="stats"]
 	{
@@ -1068,15 +1068,15 @@
 	}
 	.author-styles a[href*="edit"]:after
 	{
-		content: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/edit.png");
+		content: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/edit.png");
 	}
 	.author-styles a[href*="delete"]:after
 	{
-		content: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/delete.png");
+		content: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/delete.png");
 	}
 	.author-styles a[href*="stats"]:after
 	{
-		content: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/master/Images/stats.png");
+		content: url("https://raw.githubusercontent.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/stats.png");
 	}
 
 	/*User styles*/
