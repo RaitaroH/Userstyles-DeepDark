@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace gitlab.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Userstyles-DeepDark
-@version 1.2.4
+@version 1.2.5
 @updateURL https://gitlab.com/RaitaroH/Userstyles-DeepDark/raw/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -409,17 +409,25 @@
 	}
 
 	/*Sidebar*/
-	#nav-view, #navigation
+	.navigation
 	{
 		background-color: var(--main-background) !important;
 	}
-	.linksBox .navigation_link:last-child, .navigation_link
+    .navigation .links-box .navigation-link:hover
+    {
+        background-color: var(--hover-background) !important;
+    }
+	.navigation .links-box .navigation-link, .navigation .links-box
 	{
 	    box-shadow: 0 1px 0 0 var(--hover-background), 0 0 0 0 var(--hover-background) !important;
 	}
-	.navigation_category
+	.navigation .links-box .navigation-link .navigation-title
 	{
 		color: var(--main-text) !important;
+	}
+	.navigation .links-box .navigation-link .logo-navigation-link[src*="svg"] 
+	{
+        filter: invert(1) brightness(200%) grayscale(1);
 	}
 
 
@@ -502,19 +510,20 @@
 
 
 	/*Cards*/
-	.style_card
+	.us-stylecard, .us-stylecard--short
 	{
 		background-color: var(--second-background) !important;
 	}
-	.screenshot_wrapper
+	.us-stylecard--short .us-stencil
 	{
-		border-color: var(--hover-background) !important;
+		background-color: var(--hover-background) !important;
+		box-shadow: 0 1px 0 0 var(--hover-background), 0 0 0 0 var(--hover-background) !important;
 	}
-	h4 a, .style_updated, .k, .style_card h4 a
+	.us-stylecard--short .us-updated
 	{
 		color: var(--main-text) !important;
 	}
-	h4 a:hover, .style_card:hover h4 a, .style_author, .style_author a
+	.us-stylecard--short .us-title > a
 	{
 		color: var(--main-color) !important;
 	}
@@ -1077,6 +1086,10 @@
 	.author-styles a[href*="stats"]:after
 	{
 		content: url("https://gitlab.com/RaitaroH/Userstyles-DeepDark/raw/master/Images/stats.png");
+	}
+	.author-styles > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(8)
+	{
+		width: 100px;
 	}
 
 	/*User styles*/
