@@ -2,7 +2,7 @@
 @name Userstyles DeepDark
 @namespace gitlab.com/RaitaroH/Userstyles-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Userstyles-DeepDark
-@version 1.2.5
+@version 1.2.6
 @updateURL https://gitlab.com/RaitaroH/Userstyles-DeepDark/raw/master/UserstylesDeepDark.user.css
 @description Userstyles dark theme
 @author RaitaroH
@@ -510,7 +510,7 @@
 
 
 	/*Cards*/
-	.us-stylecard, .us-stylecard--short
+	.us-stylecard, .us-stylecard--short, .us-stylecard--long
 	{
 		background-color: var(--second-background) !important;
 	}
@@ -523,7 +523,7 @@
 	{
 		color: var(--main-text) !important;
 	}
-	.us-stylecard--short .us-title > a
+	.us-stylecard--short .us-title > a, .us-stylecard--long .us-title > a
 	{
 		color: var(--main-color) !important;
 	}
